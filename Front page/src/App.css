@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@600&display=swap')
+
+;poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+*{
+     margin: 0;
+  }
+
+
+  .container{
+
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+
+
+.nav-btn {
+    display: inline-block;
+    height: 25px;
+    width: 75px;
+    font-weight: 400;
+    background-color: #ce3737;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  .nav-btn:hover {
+    background-color: #3391d3;
+  }
+  
+  .nav-btn:active {
+    background-color: #20adcd;
+  }
+
+nav ul{
+
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+
+}
+
+
+.hero{
+
+  display: flex;
+  
+}
+
